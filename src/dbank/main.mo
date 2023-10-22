@@ -8,11 +8,11 @@ actor DBank {
   stable var startTime = Time.now();
   Debug.print(debug_show(startTime));
   stable var currentValue: Float = 300;
-  // currentValue := 300;
+  currentValue := 300;
  
 
   let id = 452654645622;
-  // Debug.print(debug_show(id));
+  Debug.print(debug_show(id));
 
   public func topUp(amount: Float) {
     currentValue += amount;

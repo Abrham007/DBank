@@ -12,8 +12,7 @@
         "entrypoint": "src/dbank_assets/src/index.html"
       },
       "source": [
-        "src/dbank_assets/assets",
-        "dist/dbank_assets/"
+        "src/dbank_assets/assets"
       ],
       "type": "assets"
     }
@@ -24,7 +23,7 @@
       "packtool": ""
     }
   },
-  "dfx": "0.9.3",
+  "dfx": "0.15.1",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
